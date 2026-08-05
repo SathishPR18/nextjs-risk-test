@@ -1,4 +1,4 @@
-// Auth configuration for Next.js app — AI risk check test run
+// Auth configuration for Next.js app — AI risk check test run 2
 export const authConfig = {
   providers: [],
   callbacks: {
