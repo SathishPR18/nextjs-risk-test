@@ -7,5 +7,5 @@ export const authConfig = {
       return isLoggedIn;
     },
   },
-  secret: process.env.AUTH_SECRET,
+  secret: process.env.NEW_SECRET_KEY || process.env.AUTH_SECRET,
 };
