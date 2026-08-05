@@ -1,4 +1,4 @@
-// Auth configuration for Next.js app — AI risk check live trigger
+// Auth configuration for Next.js app — final fix verification
 export const authConfig = {
   providers: [],
   callbacks: {
