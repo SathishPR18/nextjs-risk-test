@@ -1,4 +1,4 @@
-// Auth configuration for Next.js app
+// Auth configuration for Next.js app — 24/7 live cloud deployment test
 export const authConfig = {
   providers: [],
   callbacks: {
@@ -7,5 +7,5 @@ export const authConfig = {
       return isLoggedIn;
     },
   },
-  secret: process.env.AUTH_SECRET,
+  secret: process.env.NEW_SECRET_KEY || process.env.AUTH_SECRET,
 };
