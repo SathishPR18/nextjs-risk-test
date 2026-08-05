@@ -1,4 +1,4 @@
-// Auth configuration for Next.js app — final fix verification
+// Auth configuration for Next.js app — 24/7 live cloud deployment test
 export const authConfig = {
   providers: [],
   callbacks: {
